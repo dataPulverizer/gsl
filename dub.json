@@ -1,0 +1,12 @@
+{
+	"name": "gsl",
+	"description": "D bindings for gsl",
+	"targetType": "library",
+	"homepage": "http://www.active-analytics.com",
+	"copyright": "Copyright © 2016, Chibisi Chima-Okereke",
+	"libs": ["gsl", "gslcblas", "m"],
+	"authors": [
+		"Chibisi Chima-Okereke"
+	],
+	"license": "BSL-1.0"
+}
