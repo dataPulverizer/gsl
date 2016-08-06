@@ -1,7 +1,7 @@
 # D bindings for GSL (GNU Scientific Library)
 
 The library is intended as a stand alone to allow programmers to plug into the library without the 
-"baggage" of specific D implementation.
+"baggage" of any specific D implementation.
 
 ## Basic examples
 
