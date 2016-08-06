@@ -26,3 +26,4 @@ void main(){
 	writeln(gsl_stats_absdev(some_numbers.ptr, 1, some_numbers.length));
 }
 ```
+The library was transformed using the [dstep](https://github.com/jacob-carlborg/dstep) tool.
