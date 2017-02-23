@@ -1,12 +1,16 @@
 {
 	"name": "gsl",
 	"description": "D bindings for gsl",
-	"targetType": "library",
-	"homepage": "http://www.active-analytics.com",
 	"copyright": "Copyright © 2016, Chibisi Chima-Okereke",
+	"authors": ["Chibisi Chima-Okereke"],
+	"license": "BSL-1.0",
+	"homepage": "http://www.active-analytics.com",
 	"libs": ["gsl", "gslcblas", "m"],
-	"authors": [
-		"Chibisi Chima-Okereke"
-	],
-	"license": "BSL-1.0"
+	"configurations": [
+		{"name": "library", "targetType": "library"},
+		{"name": "source", "targetType": "sourceLibrary"},
+		{"name": "static", "targetType": "staticLibrary"},
+		{"name": "dynamic", "targetType": "dynamicLibrary"},
+		{"name": "binary", "targetType": "executable"}
+	]
 }

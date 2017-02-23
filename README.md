@@ -1,7 +1,6 @@
 # D bindings for GSL (GNU Scientific Library)
 
-The library is intended as a stand alone to allow programmers to plug into the library without the 
-"baggage" of any specific D implementation. It was configured to run with gsl 2.1. See the  [website](https://www.gnu.org/software/gsl/).
+This library was configured to run with GSL 2.1. See the  [website](https://www.gnu.org/software/gsl/). At the moment only the raw functions from the C GSL library are ported.
 
 ## Basic examples
 
