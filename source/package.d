@@ -97,3 +97,13 @@ unittest
 	assert(round_dp(gsl_stats_variance(some_numbers.ptr, 1, some_numbers.length), 7) == 9.1666667);
 	assert(gsl_stats_absdev(some_numbers.ptr, 1, some_numbers.length) == 2.5);
 }
+
+
+int main(){
+    import std.range : iota, array;
+    import std.stdio : writeln;
+
+	writeln("testing ...");
+	
+    return 0;
+}
