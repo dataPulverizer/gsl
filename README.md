@@ -9,7 +9,7 @@ This library was configured to run with GSL 2.1. See the  [website](https://www.
 /+ dub.json:
 {
     "name": "testgsl",
-    "dependencies": {"gsl": "~>0.1.6"}
+    "dependencies": {"gsl": "~>0.1.8"}
 }
 +/
 
